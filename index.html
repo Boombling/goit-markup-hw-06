@@ -374,6 +374,39 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" type="button" data-modal-close></button>
+      
+      <div class="fieldset">
+        <h2>Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="form">
+          <label>Имя
+            <input type="text" name="name" pattern="^[А-Яа-яЁё\s]+$">
+            <svg width="12" height="12">
+              <use href=".image/icon/icon.svg#icon-name"></use>
+            </svg>
+          </label>
+          <label>Телефон
+            <input type="tel" name="tel">
+            <svg width="13" height="13">
+              <use href=".image/icon/icon.svg#icon-tel"></use>
+            </svg>
+          </label>
+          <label>Почта
+            <input type="email" name="mail">
+            <svg width="15" height="12">
+              <use href=".image/icon/icon.svg#icon-email"></use>
+            </svg>
+          </label>
+          <label for="comit">Комемнтарий
+            <textarea name="comment" id="comit" rows="10" placeholder="Введите текст"></textarea>
+          </label>
+          <label>
+            <input type="checkbox" name="deal">
+            Соглашаюсь с рассылкой и принимаю 
+            <a href="">Условия договора</a>
+          </label>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
