@@ -563,7 +563,6 @@ img {
   fill: var(--primayry-white-color);
   width: 24px;
   height: 24px;
-
   margin-left: 10px;
 }
 .news-btn:hover .news-icon,
